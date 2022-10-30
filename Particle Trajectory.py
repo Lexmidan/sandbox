@@ -10,14 +10,7 @@ from matplotlib import animation
 t = np.linspace(0, 20, 1000)
 
 # Position Arrays
-#v=3,5,6 b=3,12,4
-V=np.array([3,5,6])
-B=np.array([3,12,4])
-m=1
-q=1
-Fx=q*()
-Fy
-Fz=
+
 x = 3*np.sin(np.pi*t)
 y = np.cos(np.pi*t)
 z = 30*t
