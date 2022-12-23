@@ -1,3 +1,4 @@
+import pyperclip
 while True:
     #!!!
     with open('C:/Users/aleks/Projects/fungujeto/example data/text.txt'\
@@ -70,7 +71,7 @@ while True:
             
     # with open('C:/Users/aleks/1a/FUNGUJETO_O/example data/text2.txt',encoding="utf-8", mode='w') as f:
     #     f.write(result)
-    print('\n\n      Result is    \n%%%%%%%%%%%%%%%%%%%%%%\n\n',
-          result,'\n\n%%%%%%%%%%%%%%%%%%%%%%','\n' )
+    print('\n\n      Result is    \n%%%%%%%%%%%%%%%%%%%%%%\n\n',result,'\n\n%%%%%%%%%%%%%%%%%%%%%%','\n' )
+    pyperclip.copy(result)
 
     a=''
